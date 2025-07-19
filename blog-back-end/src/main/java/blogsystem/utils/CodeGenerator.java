@@ -9,7 +9,7 @@ import java.util.Collections;
 
 public class CodeGenerator {
     public static void main(String[] args) {
-        FastAutoGenerator.create("jdbc:mysql://localhost:3306/blog_system", "root", "20050429000@Zh")
+        FastAutoGenerator.create("jdbc:mysql://localhost:3306/blog_system", "root", "YOUR_PASSWORD")
                 .globalConfig(builder -> {
                     builder.author("h3o7") // 设置作者
                             .outputDir(System.getProperty("user.dir") + "/src/main/java"); // 指定输出目录（绝对路径）
