@@ -40,6 +40,7 @@
 | `Hutool`       | Java 工具包        | Latest            |
 | `Lombok`       | 代码简化工具          | Latest            |
 | `阿里云 OSS`      | 对象存储服务          | Latest            |
+| `RabbitMQ`      | 消息队列          | 3.12            |
 
 ### 前端技术栈
 
@@ -71,6 +72,7 @@ personal_blog_system/
 │   │   ├── dto/                    # 数据传输对象
 │   │   ├── vo/                     # 视图对象
 │   │   ├── config/                 # 配置类
+│   │   ├── listener/               # 监听类
 │   │   └── utils/                  # 工具类
 │   └── pom.xml
 └── README.md
