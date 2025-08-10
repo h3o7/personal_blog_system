@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="blogsystem.mapper.ArticleTagListMapper">
-
-    <select id="selectTagsById" resultType="String">
-        select at.article_tag_name from article_tag_list atl left join article_tag at on atl.article_tag_id = at.article_tag_id
-        where atl.article_id = #{articleId}
-    </select>
-</mapper>
