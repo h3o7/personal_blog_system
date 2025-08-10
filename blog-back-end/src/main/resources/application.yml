@@ -13,13 +13,13 @@ spring:
     url: jdbc:mysql://localhost:3306/blog_system
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 20050429000@Zh
+    password: YOUR_PASSWORD
   # Redis配置
   data:
     redis:
       host: localhost           # Redis 服务器地址
       port: 6379               # Redis 服务器连接端口
-      password: 20050429000@Zh               # Redis 服务器连接密码（默认为空）
+      password: YOUR_PASSWORD               # Redis 服务器连接密码（默认为空）
       database: 1              # Redis 数据库索引（选择数据库 1）
       connect-timeout: 10000   # 连接超时时间（毫秒）
       client-type: lettuce     # 使用 lettuce 客户端
